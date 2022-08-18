@@ -1,44 +1,40 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Joseph Mena Lopez",
+	title: "Hi all, I'm Joseph",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Full Stack developer having an experience of web applications with Python, React.js, Next.js, Node.js. As well as standalone applications with Java, C, and C++. I am currently working on refining my skills and knowledge of cloud development through AWS as well as Google Cloud Platform. ",
 	resumeLink:
-		"https://drive.google.com/file/d/1WD21Y1fzGmdKY6R8lrK01X4YH9RBUxOa/view?usp=sharing",
+		"https://drive.google.com/file/d/1KxXx6GdJf5AiE1wvg4kZrVqEoRRgM-2g/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "Jmena413",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	github: "https://github.com/Jmena413",
+	linkedin: "https://www.linkedin.com/in/joseph-mena-lopez-2837b31a3/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"Full stack developer who wants to learn new technologies and improve my skills.",
 	data: [
 		{
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building responsive Single-Page-Apps (SPA) in React.js"
 				),
 				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
+
+				emoji("⚡ Building Standalone Applications in Java, C, C++, and Python"),
 			],
 			softwareSkills: [
 				{
@@ -58,29 +54,40 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
+					skillName: "Vuejs",
+					fontAwesomeClassname: "logos:vue",
+				},
+				{
 					skillName: "Nextjs",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+				},
+				{
+					skillName: "Nodejs",
+					fontAwesomeClassname: "logos:nodejs",
 				},
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					skillName: "Java",
+					fontAwesomeClassname: "logos:java",
 				},
-
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "C",
+					fontAwesomeClassname: "logos:c",
+				},
+				{
+					skillName: "Cplusplus",
+					fontAwesomeClassname: "logos:c-plusplus",
+				},
+				{
+					skillName: "R",
+					fontAwesomeClassname: "logos:r-lang",
 				},
 				{
 					skillName: "NPM",
 					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
 				},
 			],
 		},
@@ -89,12 +96,6 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
 			],
 			softwareSkills: [
 				// ? Check README To get icon details
@@ -103,16 +104,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:aws",
 				},
 				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
 					skillName: "Github",
@@ -122,65 +115,6 @@ export const skillsSection = {
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker-icon",
 				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
-			],
-		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
 			],
 		},
 	],
@@ -189,7 +123,7 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "60", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -199,109 +133,85 @@ export const SkillBars = [
 		Stack: "Programming",
 		progressPercentage: "60",
 	},
+	{
+		Stack: "Cloud Development",
+		progressPercentage: "50",
+	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Macalester College",
+		subHeader: "Bachelor of Arts in Computer Science, Minor in Data Science - Bioinformatics",
+		duration: "August 2019 - May 2023",
+		grade: "GPA: 3.72",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Relevant Coursework: Object Oriented Programming, Data Structures, Algorithm Design and Analysis, Statistical Machine Learning, Computational Biology, Software Development and Design, Computer Sytems and Organization, Parallel and Distributed Programming, Introduction to Artificial Intelligence"
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
-	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "Software Engineer Program Intern",
+		company: "JPMorgan Chase & Co.",
+		companylogo: "/img/icons/common/images.jpg",
+		date: "Jun 2022 – Aug 2022",
+		desc: "I worked as a frontend developer on an internal JPMorgan Chase & Co. project. I was a part of an Agile development team following the Scrum framework.  This was done through a microservice architecture and a React.js frontend. I was responsible for creating various web pages and unit tests with Jest as well.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Typing-based Multiplayer BattleShip",
+		desc: "An online multiplayer game where players can play against each other in a typing-based battle ship game without any turns created with a Vue.js frontend and a Node.js backend. This web application also allows for real time spectators to watch the game. The game is hosted through heroku.",
+		github: "https://github.com/Spatel1217/MovingBattleship",
+		link: "https://battleship225.herokuapp.com/",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Simple Cipher and Decipher Program",
+		desc: "A simple program that encrypts and decrypts text using a few common ciphers. The program is written in Java.",
+		github: "https://github.com/Jmena413/COMP128-Cipher-Final-Project",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "Simple Hangman Game",
+		desc: "Hangman game where the user has to guess the word. The game was created in Java and includes a window that shows the progress of the game. The words are guessed through the console.",
+		github: "https://github.com/lizjac/COMP127_Project",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "DualSPHysics - Code Analysis of CPU and GPU Parallelization Implementations",
+		desc: "This project was an analysis of the performance of different implementations of the DualSPHysics library. The CPU implementaiong is implemented in C++, and the GPU implementation is implemented in CUDA. This analysis was done to show how GPUs can be leveraged towards faster computation especially for large simulations.",
+		github: "https://github.com/mac-comp445-s22/project-team1-dino-joseph",
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Joseph Mena Lopez",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
+		"A passionate Full Stack Developer.",
+	author: "Joseph Mena Lopez",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Joseph",
+		"Joseph Mena Lopez",
+		"@Jmena413",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Joseph Portfolio ",
+		"Joseph Mena Lopez Portfolio",
 	],
 }
